@@ -6,9 +6,9 @@ namespace BuilderBurger
     {
         static void Main(string[] args)
         {
-            Builder builder= new Builder();
+            Builder builder = new Builder();
             Director dir = new Director(builder);
-            
+
             string result = dir.Create().ToString();
             Console.WriteLine(result);
         }

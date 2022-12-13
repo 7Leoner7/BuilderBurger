@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BuilderBurger
+﻿namespace BuilderBurger
 {
     internal class Builder : IBuilder
     {
